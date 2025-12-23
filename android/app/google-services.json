@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "987147458806",
+    "project_id": "itbsexpress-8ecbf",
+    "storage_bucket": "itbsexpress-8ecbf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987147458806:android:a29b2ee5c853ae2d90b4d7",
+        "android_client_info": {
+          "package_name": "com.example.itbsexpress"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpCULc07Tb3cdDHCXE5_xHNd49h-quyxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
