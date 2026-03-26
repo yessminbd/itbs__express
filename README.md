@@ -103,38 +103,7 @@ flutter run
 
 ---
 
-## 🗂️ Structure du projet
 
-```
-lib/
-├── main.dart
-├── screens/
-│   ├── onboarding/
-│   ├── auth/
-│   │   ├── login_screen.dart
-│   │   ├── register_screen.dart
-│   │   └── forgot_password_screen.dart
-│   ├── user/
-│   │   ├── home_screen.dart
-│   │   ├── cart_screen.dart
-│   │   └── order_history_screen.dart
-│   └── admin/
-│       ├── admin_login_screen.dart
-│       ├── product_management_screen.dart
-│       └── order_management_screen.dart
-├── models/
-│   ├── product.dart
-│   └── order.dart
-├── services/
-│   ├── auth_service.dart
-│   ├── firestore_service.dart
-│   └── cloudinary_service.dart
-└── widgets/
-    ├── product_card.dart
-    └── order_card.dart
-```
-
----
 
 ## 🔐 Rôles & Accès
 
@@ -163,13 +132,6 @@ Les contributions sont les bienvenues !
 4. Push sur la branche (`git push origin feature/nouvelle-fonctionnalite`)
 5. Ouvre une Pull Request
 
----
-
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
-
----
 
 <div align="center">
 
