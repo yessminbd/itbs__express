@@ -45,17 +45,21 @@
 
 ## 📸 Captures d'écran
 
+<div align="center">
+
 | Onboarding | Connexion | Inscription |
 |:-----------:|:---------:|:-----------:|
-| ![Onboarding](screenshots/onboarding.png) | ![Connexion](screenshots/login.png) | ![Inscription](screenshots/register.png) |
+| <img src="screenshots/onboarding.png" width="180"/> | <img src="screenshots/login.png" width="180"/> | <img src="screenshots/register.png" width="180"/> |
 
 | Accueil | Gestion Produits | Commandes Admin |
 |:-------:|:----------------:|:---------------:|
-| ![Accueil](screenshots/home.png) | ![Produits](screenshots/admin_products.png) | ![Commandes](screenshots/admin_orders.png) |
+| <img src="screenshots/home.png" width="180"/> | <img src="screenshots/admin_products.png" width="180"/> | <img src="screenshots/admin_orders.png" width="180"/> |
 
 | Détail Commande | Historique | Mot de passe oublié |
 |:---------------:|:----------:|:-------------------:|
-| ![Détail](screenshots/order_detail.png) | ![Historique](screenshots/history.png) | ![Reset](screenshots/forgot_password.png) |
+| <img src="screenshots/order_detail.png" width="180"/> | <img src="screenshots/history.png" width="180"/> | <img src="screenshots/forgot_password.png" width="180"/> |
+
+</div>
 
 ---
 
@@ -103,7 +107,38 @@ flutter run
 
 ---
 
+## 🗂️ Structure du projet
 
+```
+lib/
+├── main.dart
+├── screens/
+│   ├── onboarding/
+│   ├── auth/
+│   │   ├── login_screen.dart
+│   │   ├── register_screen.dart
+│   │   └── forgot_password_screen.dart
+│   ├── user/
+│   │   ├── home_screen.dart
+│   │   ├── cart_screen.dart
+│   │   └── order_history_screen.dart
+│   └── admin/
+│       ├── admin_login_screen.dart
+│       ├── product_management_screen.dart
+│       └── order_management_screen.dart
+├── models/
+│   ├── product.dart
+│   └── order.dart
+├── services/
+│   ├── auth_service.dart
+│   ├── firestore_service.dart
+│   └── cloudinary_service.dart
+└── widgets/
+    ├── product_card.dart
+    └── order_card.dart
+```
+
+---
 
 ## 🔐 Rôles & Accès
 
@@ -132,6 +167,13 @@ Les contributions sont les bienvenues !
 4. Push sur la branche (`git push origin feature/nouvelle-fonctionnalite`)
 5. Ouvre une Pull Request
 
+---
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+---
 
 <div align="center">
 
