@@ -167,11 +167,6 @@ Les contributions sont les bienvenues !
 4. Push sur la branche (`git push origin feature/nouvelle-fonctionnalite`)
 5. Ouvre une Pull Request
 
----
-
-## 📄 Licence
-
-Ce projet est sous licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ---
 
